@@ -1,0 +1,176 @@
+{
+  "cars": [
+    {
+      "model": "Ferrari 812 Superfast",
+      "tags": ["Super car", "Ferrari"],
+      "horsepower": 789,
+      "topSpeed": 340,
+      "acceleration": 2.9,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.ferrari.com/en-EN"
+    },
+    {
+      "model": "Lamborghini Aventador SVJ",
+      "tags": ["Super car", "Lamborghini"],
+      "horsepower": 770,
+      "topSpeed": 350,
+      "acceleration": 2.8,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.lamborghini.com/en-en/history/aventador-svj"
+    },
+    {
+      "model": "Porsche 911 Turbo S",
+      "tags": ["Super car", "Porsche"],
+      "horsepower": 640,
+      "topSpeed": 330,
+      "acceleration": 2.7,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.porsche.com/usa/models/911/911-turbo-models/911-turbo-s/"
+    },
+    {
+      "model": "McLaren 765LT",
+      "tags": ["Super car", "McLaren"],
+      "horsepower": 755,
+      "topSpeed": 330,
+      "acceleration": 2.7,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://cars.mclaren.com/br-pt/super-series/765lt"
+    },
+    {
+      "model": "Bugatti Chiron",
+      "tags": ["Hyper car", "Bugatti"],
+      "horsepower": 1500,
+      "topSpeed": 420,
+      "acceleration": 2.4,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://pt.wikipedia.org/wiki/Bugatti_Chiron"
+    },
+    {
+      "model": "Koenigsegg Jesko",
+      "tags": ["Hyper car", "Koenigsegg"],
+      "horsepower": 1600,
+      "topSpeed": 480,
+      "acceleration": 2.5,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.koenigsegg.com/model/jesko-attack#:~:text=Discover%20the%20Koenigsegg%20Jesko%20-%20a%20new%20benchmark%20in%20the%20automotive%20industry."
+    },
+    {
+      "model": "Lotus Evija",
+      "tags": ["Hyper car", "Lotus"],
+      "horsepower": 2000,
+      "topSpeed": 320,
+      "acceleration": 1.9,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.lotuscars.com/evija/"
+    },
+    {
+      "model": "Ferrari F8 Tributo",
+      "tags": ["Super car", "Ferrari"],
+      "horsepower": 720,
+      "topSpeed": 340,
+      "acceleration": 2.9,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.ferrari.com/en-EN/auto/f8-tributo"
+    },
+    {
+      "model": "Lamborghini Huracan Evo",
+      "tags": ["Super car", "Lamborghini"],
+      "horsepower": 640,
+      "topSpeed": 325,
+      "acceleration": 2.9,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.lamborghini.com/en-en/models/huracan/huracan-evo"
+    },
+    {
+      "model": "Porsche Taycan Turbo S",
+      "tags": ["Super car", "Porsche"],
+      "horsepower": 761,
+      "topSpeed": 260,
+      "acceleration": 2.6,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.porsche.com/usa/models/taycan/taycan-models/taycan-turbo-s/"
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Circuit de Monaco",
+      "country": "Monaco",
+      "length": 3.337,
+      "corners": 19,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.monaco-tribune.com/en/2021/04/monaco-gp-2021-what-to-expect-from-the-f1-grand-prix/"
+    },
+    {
+      "name": "Circuit de Spa-Francorchamps",
+      "country": "Belgium",
+      "length": 7.004,
+      "corners": 19,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.spagrandprix.com/en"
+    },
+    {
+      "name": "Circuit de la Sarthe",
+      "country": "France",
+      "length": 13.629,
+      "corners": 38,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.lemans.org/en/"
+    },
+    {
+      "name": "Circuit of the Americas",
+      "country": "USA",
+      "length": 5.513,
+      "corners": 20,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.thecircuit.com/"
+    },
+    {
+      "name": "Autódromo José Carlos Pace",
+      "country": "Brazil",
+      "length": 4.309,
+      "corners": 15,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.interlagosmotorclube.com.br/"
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez",
+      "country": "Mexico",
+      "length": 4.304,
+      "corners": 17,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.autodromohr.com/"
+    },
+    {
+      "name": "Autódromo Nazionale Monza",
+      "country": "Italy",
+      "length": 5.793,
+      "corners": 11,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.monzanet.it/en/"
+    },
+    {
+      "name": "Silverstone Circuit",
+      "country": "England",
+      "length": 5.891,
+      "corners": 18,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.silverstone.co.uk/"
+    },
+    {
+      "name": "Suzuka Circuit",
+      "country": "Japan",
+      "length": 5.807,
+      "corners": 18,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.suzukacircuit.jp/en/"
+    },
+    {
+      "name": "Yas Marina Circuit",
+      "country": "United Arab Emirates",
+      "length": 5.554,
+      "corners": 21,
+      "image": "https://picsum.photos/320/180",
+      "link": "https://www.yasmarinacircuit.com/"
+    }
+  ]
+}

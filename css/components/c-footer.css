@@ -1,0 +1,40 @@
+.c-footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--white);
+  border-top: var(--border-width) solid var(--light-gray);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.c-footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c-footer__item {
+  list-style: none;
+}
+
+.c-footer__link {
+  font-size: 1.5rem;
+  color: var(--black);
+
+  text-decoration: none;
+}
+
+.c-footer__copy {
+  font-size: 1rem;
+  color: var(--black);
+  font-family: var(--font-primary);
+  text-align: center;
+}
+
+@media screen and (width >= 1312px) {
+  .c-footer {
+    padding-inline: var(--container-padding);
+  }
+}

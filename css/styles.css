@@ -1,0 +1,9 @@
+/* Importações */
+@import url('reset.css');
+@import url('global.css');
+@import url('components/c-header.css');
+@import url('components/c-footer.css');
+@import url('components/c-search.css');
+@import url('pages/home.css');
+@import url('pages/cars.css');
+@import url('pages/tracks.css');

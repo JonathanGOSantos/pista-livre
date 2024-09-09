@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  /* Cores padrão */
+  --black: #131313;
+  --white: #ffffff;
+  --light-gray: #f9f9f9;
+
+  /* Cores de destaque */
+  --primary: #3771c8;
+  --secondary: #c837ab;
+
+  /* Fontes */
+  --font-title: 'Imbue', sans-serif;
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+
+  /* Espaçamentos */
+  --border-radius: 0.5rem;
+  --border-width: 1px;
+  --border-color: var(--black);
+  --shadow: 0 4px 8pxpx rgba(0, 0, 0, 0.25);
+  --container-padding: calc((100svw - 1296px) / 2);
+}
+
+body {
+  background-color: var(--light-gray);
+}

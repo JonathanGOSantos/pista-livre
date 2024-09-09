@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font awesome icons import -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS import -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Circuitos | Pista Livre</title>
+  </head>
+  <body>
+    <header class="c-header">
+      <h1 class="c-header__logo">Pista Livre</h1>
+      <nav class="c-header__nav" id="header-menu">
+        <button
+          class="c-header__button--open"
+          type="button"
+          onclick="toggleMenu()"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <button
+          class="c-header__button--close"
+          type="button"
+          onclick="toggleMenu()"
+        >
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="c-header__list">
+          <li class="c-header__item">
+            <a class="c-header__link" href="index.html">Início</a>
+          </li>
+          <li class="c-header__item">
+            <a class="c-header__link" href="carros.html">Carros</a>
+          </li>
+          <li class="c-header__item">
+            <a class="c-header__link" href="circuitos.html">Circuitos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="c-tracks">
+      <section class="c-hero">
+        <section class="c-hero__text">
+          <h2 class="c-hero__title">Ops...</h2>
+          <p class="c-hero__description">
+            Parece que ainda não temos circuitos disponíveis. Volte mais tarde
+            para conferir as novidades! Mas você ainda pode conferir a lista de
+            <a href="carros.html">carros</a> disponíveis.
+          </p>
+          <p>
+            <a class="c-hero__link" href="index.html"
+              >Voltar para a página inicial</a
+            >
+          </p>
+        </section>
+        <section>
+          <img
+            class="c-hero__image"
+            src="./assets/images/home/hero-image.jpg"
+            alt="Carro de corrida em alta velocidade"
+          />
+        </section>
+      </section>
+    </main>
+
+    <footer class="c-footer">
+      <nav class="c-footer__nav">
+        <ul class="c-footer__list">
+          <li class="c-footer__item">
+            <a
+              class="c-footer__link"
+              title="GitHub"
+              href="https://github.com/JonathanGOSantos"
+              target="_blank"
+            >
+              <i class="fab fa-square-github"></i>
+            </a>
+          </li>
+          <li class="c-footer__item">
+            <a
+              class="c-footer__link"
+              title="Instagram"
+              href="https://www.instagram.com/jonathan.go.santos/"
+              target="_blank"
+            >
+              <i class="fab fa-square-instagram"></i>
+            </a>
+          </li>
+          <li class="c-footer__item">
+            <a
+              class="c-footer__link"
+              title="LinkedIn"
+              href="https://www.linkedin.com/in/jonathan-go-santos"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <p class="c-footer__copy">
+        &copy; 2024 Pista Livre. Todos os direitos reservados.
+      </p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
